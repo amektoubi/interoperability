@@ -1,0 +1,9 @@
+https://dbeaver.io/download/
+https://db.apache.org/derby/derby_downloads.html
+
+add policy to security/java.policy :
+Java exception: 'access denied ("java.lang.RuntimePermission" "getenv.SOURCE_DATE_EPOCH"")
+
+/startNetworkServer
+
+default login/pass impact derbypass
